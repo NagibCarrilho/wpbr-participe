@@ -13,3 +13,15 @@ template: p2
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+#header {
+	background-repeat: no-repeat;
+	height: 161px;
+}
+
+.main-navigation {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	border: 1px solid #EAEAEA;
+}
