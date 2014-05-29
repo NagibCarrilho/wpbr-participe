@@ -14,6 +14,8 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 #header {
 	background-repeat: no-repeat;
 	height: 161px;
@@ -24,4 +26,117 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	bottom: 0;
 	margin: 0;
 	border: 1px solid #EAEAEA;
+}
+
+
+
+/* ===== Fonts ===== */
+
+body, form *, #respond #cancel-comment-reply-link, input, textarea {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+#postbox label,
+#help dd,
+.inlineediting input.title {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+code, pre {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+.postcontent h4, h5, h6 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#post-types li a{
+	background-color: #f0f0f0 !important;
+	color: #3478e3;
+	font-weight: 600;
+	font-size: 1.1em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#post-types li a:hover {
+	color: #5bad2d;
+}
+
+#post-types li a.selected {
+	background-color: #f0f0f0 !important;
+	color: #2F6EA4;
+	font-weight: 600;
+	font-size: 1.1em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#main p, #main ul, #main ol {
+	color: #555;
+	font-weight: 400;
+	font-size: 1.04em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+#footer p {
+	color: #777;
+	font-weight: 600;
+	font-size: 1.3em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+
+/* ===== Sidebar ===== */
+
+a, a:visited, h1 a:visited, a:active, #main .selected .actions a, #main .selected .actions a:link, #main .selected .actions a:visited, #help dt, #media-buttons .button {
+	color: #3478e3;
+	font-weight: 600;
+	font-size: 1.0em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+a:hover, h1 a:hover, #main .selected .actions a:hover, #main .selected .actions a:active, #media-buttons .button:hover {
+	color: #5CAC2F;
+}
+
+
+#sidebar ul li{
+	color: #777;
+	font-weight: 600;
+	font-size: 1.0em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+
+/* ===== Form ===== */
+
+#main form {
+	margin-top: 10px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+#main input {
+	margin: 4px 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#wrapper form input[type="text"],
+.inlineediting input[type="text"] {
+	font-size: 13px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#wrapper form input[type="submit"],
+.inlineediting input[type="submit"] {
+	font-size: 13px;
+	font-weight: 800;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#wrapper form input[type="submit"]:hover,
+.inlineediting input[type="submit"]:hover {
+	color: #2F6EA4;	
+	cursor: pointer;
+	border-color:#2F6EA4;
 }
